@@ -1,3 +1,5 @@
-# Demo
+# Web design basics
 
-This is a test priject No1
+## 04.2023
+
+This are exercises from course
