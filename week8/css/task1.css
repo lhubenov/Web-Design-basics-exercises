@@ -1,0 +1,413 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+}
+
+img {
+    width: 100%;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.main-btn {
+    border: white;
+    background: unset;
+    color: white;
+    padding: 8px 24px;
+
+}
+
+.main-bg {
+    background: url(../images/4.jpg);
+}
+
+/* MENU */
+.menu {
+    position: fixed;
+    width: 100%;
+}
+
+.menu ul {
+    width: 380px;
+    /* margin: auto 0 0 auto; */
+    margin: 0 0 0 auto;
+    padding: 16px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.menu a:hover {
+    color: #48ca95;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+/* MENU END */
+
+/* HEADER */
+.header-container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.h-left, .h-right {
+    float: left;
+    width: 50%;
+}
+
+.h-left {
+    color: white;
+    padding-right: 20px;
+}
+
+.h-left h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.h-left h1 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.h-left p {
+    font-size: 12px;
+    margin: 40px 0;
+}
+
+.h-left button {
+    border: 1px solid white;
+    padding: 10px 50px;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.h-left button:hover {
+    background: white;
+    color: #3106cc;
+    cursor: pointer;
+}
+
+.h-right img {
+    width: 100%;
+}
+/* HEADER END*/
+
+/* INFO */
+.i-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.box {
+    border: 1px solid #48ca95;
+    width: 32%;
+    float: left;
+    padding: 16px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.box:nth-child(2) {
+    margin: 0 2%;
+}
+
+.box h3 {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.box p {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.box i {
+    color: #48ca95;
+    font-size: 70px;
+    padding: 10px;
+}
+/* INFO EMD */
+
+/* PRODUCTS */
+.products {
+    background: #f7f7f7;
+    /* background: red; */
+    padding: 80px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 30px;
+    width: 20%;
+    margin: 60px auto;
+    border-bottom: 1px solid #48ca95;
+}
+
+.products .op-container {
+    width: 70%;
+    margin: 0 auto;
+    background: white;
+    height: 400px;
+}
+
+.op-box {
+    width: 30%;
+    float: left;
+}
+
+.op-box:nth-child(2) {
+    margin: 0 5%;
+}
+
+.op-box img {
+    width: 70%;
+}
+
+.op-title {
+    color: white;
+    background: black;
+    width: 68%;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.products button {
+    margin: 80px;
+    border: 2px solid #48ca95;
+    padding: 10px 50px;
+    font-weight: 700;
+    color: #48ca95;
+}
+
+.products button:hover {
+    background: #48ca95;
+    color: white;
+    cursor: pointer;
+}
+/* PRODUCTS END */
+
+/* SPECIAL OFFERS */
+.special-offers {
+    width: 100%;
+    min-height: 250px;
+}
+
+.so-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.so-left, .so-right {
+    float: left;
+    width: 50%;
+}
+
+
+.so-left {
+    color: white;
+    padding-right: 20px;
+}
+
+.so-left h3 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.so-left h2 {
+    font-size: 50px;
+    margin: 10px 0;
+    font-weight: 300;
+}
+
+.so-left button {
+    border: unset;
+    padding: 10px 40px;
+    margin-right: 5px;
+    font-weight: 700;
+    background: #48ca95;
+    color: white;
+}
+
+.so-left button:hover {
+    background: white;
+    color: #48ca95;
+    cursor: pointer;
+}
+/* SPECIAL OFFERS END */
+
+/* TESTIMONIALS */
+.testimonials {
+    padding: 80px;
+    text-align: center;
+}
+
+.tm-title {
+    font-size: 20px;
+    width: 22%;
+    margin: 60px auto;
+    border-bottom: 1px solid #48ca95;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tm-text {
+    width: 44%;
+    margin: 0 auto;
+}
+
+.tm-text i {
+    font-size: 40px;
+}
+
+.tm-text h3 {
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.tm-text p {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 80px;
+}
+/* TESTIMONIALS END */
+
+/* CONTACT */
+.contact {
+    padding: 60px 80px;
+    border-bottom: 1px solid white ;
+}
+
+.c-title {
+    font-size: 20px;
+    width: 220px;
+    margin: 0 auto 60px auto;
+    border-bottom: 1px solid white;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.c-form {
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid white;
+    padding: 40px 30px;
+}
+
+.c-form input, 
+.c-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: unset;
+    border: 2px solid white;
+    color: white;
+}
+
+.c-form input::placeholder, 
+.c-form textarea::placeholder {
+    color: white;
+}
+
+.c-form input:focus, 
+.c-form textarea:focus {
+    outline: none;
+}
+
+.c-form button {
+    border-radius: 30px;
+    background: #48ca95;
+    color:white;
+    border: unset;
+    padding: 13px 55px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.c-form button:hover {
+    background: white;
+    color: #48ca95;
+    cursor: pointer;
+}
+
+.c-form:last-child {
+    text-align: center;
+}
+/* CONTACT END */
+
+/* FOOTER */
+.footer {
+    padding: 60px 80px 0 80px;
+    background: #252525;
+    color: white;
+}
+
+.footer-c {
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
+
+.f-box {
+    width: 30%;
+    float: left;
+}
+
+.f-box:nth-child(2) {
+    margin: 0 5%;
+}
+
+.footer input {
+    border-radius: 10px;
+    padding: 8px;
+    border: unset;
+    margin-top: 10px;
+    outline: none;
+    width: 100%;
+}
+
+.footer input::placeholder {
+    font-weight: 700;
+}
+
+.footer button {
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #48ca95;
+    color:white;
+    border: unset;
+    padding: 8px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.footer button:hover {
+    background: white;
+    color: #48ca95;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+/* FOOTER END */
