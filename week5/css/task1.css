@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: Arial;
+}
+
+img{
+    width: 100%;
+}
+
+.mch {
+    color: #2e4765;
+}
+
+.sc {
+    color: rgba(136, 135, 135, 0.7)
+}
+
+ul, li, h2, p {
+    padding: 0;
+    margin: 0;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgb(197, 195, 195);
+}
+
+/*NAV*/
+.nav {
+    width: 220px;
+    min-height: 100%;
+    position: fixed;
+    box-shadow: 1px 0 0 0 rgba(136, 135, 135, 0.7);
+    background: white;
+}
+
+.nav ul {
+    padding: 25px;
+    list-style-type: none;
+}
+
+.nav ul li {
+    margin-top: 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: gray;
+    width: 100%;
+    display: block;
+    padding: 10px;
+}
+.nav ul img {
+    width: 26px;
+    vertical-align: middle;
+}
+
+.menu-title {
+    font-weight: 700;
+    color: #69ad27;
+    font-size: 24px;
+}
+
+.nav ul span {
+    font-size: 18px;
+    vertical-align: middle;
+    margin-left: 14px;
+}
+
+.active {
+    color: #69ad27 !important;
+}
+
+.logo {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10%;
+}
+
+.nav li a:hover {
+    color: black !important;
+    background-color: #69ad27;
+}
+/*NAV END*/
+
+/*MAIN CONTAINER*/
+.main-container {
+    padding-left: 220px;
+    min-height: 100%;
+    background: #eff1f7;
+}
+
+/*MAIN CONTAINER END*/
+
+/*HEADER BAR*/
+.header-bar {
+    background: white;
+    height: 110px;
+}
+
+.hb-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.hb-right {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.search-box {
+    background: #f5f7fd;
+    margin-top: 32px;
+    margin-left: 20px;
+    display: inline-block;
+    width: 70%;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+.search-box img {
+    width: 20px;
+    margin-left: 15px;
+}
+
+.search-box input {
+    border: unset;
+    background: unset;
+    font-size: 14px;
+    vertical-align: bottom;
+    height: 30px;
+    margin-left: 15px;
+    width: 85%;
+}
+
+.search-box input ::placeholder {
+    color:rgba(136, 135, 135, 0.7)
+}
+
+input:focus {
+    outline: none;
+}
+
+.not-icons {
+    width: 26px;
+    margin-left: 10px;
+}
+
+.avatar {
+    width: 50px;
+    margin: 25px 20px;
+}
+
+.hb-right {
+    text-align: right;
+}
+
+.hb-right div {
+    display: inline-block;
+    vertical-align: middle;
+}
+/*HEADER BAR END*/
+
+/*CONTAINER*/
+.container {
+    padding: 20px;
+}
+
+.box {
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+}
+/*CONTAINER END*/
+
+/*STATS*/
+.stats-box {
+    width: 25%;
+    float: left;
+    padding-left: 20px;
+}
+
+.stats-box:first-of-type {
+    padding-left: 0;
+}
+
+.sbi-left {
+    float: left;
+}
+
+.sbi-left img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.stats-box-inner {
+    padding: 30px 40px;
+}
+
+.sbi-right h2 {
+    font-size: 32px;
+}
+
+.sbi-right p {
+    font-size: 14px;
+}
+/*STATS END*/
+
+/*INCOME*/
+.income {
+    margin-top: 20px;
+    padding: 5px 20px;
+    min-height: 150px;
+}
+
+.sum > div {
+    float: left;
+    width: 25%;
+    text-align: center;
+    background: white;
+}
+
+.sum-left h3 {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.sum-left p {
+    font-size: 12px;
+}
+/*INCOME END*/
+
+/* ACTIVITY */
+.activity {
+    margin-top: 20px;
+    min-height: 500px;
+}
+
+.activity-left {
+    float: left;
+    width: 49%;
+    padding: 40px;
+    margin-right: 10px;
+}
+
+.activity-right {
+    float: right;
+    width: 49%;
+    padding: 40px;
+    margin-left: 10px;
+}
+
+.activity-left h5, .activity-right h5 {
+    margin-bottom: 10px;
+}
+
+.activity-left p, .activity-right p {
+    font-size: 12px;
+}
+
+.activity-left li, .activity-right li {
+    margin-left: 20px;
+}
+.activity-left li::marker, .activity-right li::marker{
+    color: #69ad27;
+    /* font-size: 24px; */
+    margin-left: 20px;
+}
+/* ACTIVITY END */

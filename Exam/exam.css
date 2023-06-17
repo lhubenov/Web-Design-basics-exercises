@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;0,800;1,300;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.btn {
+    color: white;
+    background: rgb(25, 135, 84);
+    border-radius: 5px;
+    border: unset;
+    padding:13px 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    /* color: rgb(25, 135, 84); */
+    /* background: white; */
+    /* border: 2px solid rgb(25, 135, 84); */
+    opacity: 0.7;
+}
+
+/* HEADER */
+.header-container {
+    width: 100%;
+    background: url(../images/header.jpg);
+    min-height: 100%;
+    background-size: cover;
+    background-position: center center;
+    font-family: Open sans;
+}
+
+.hcn-container {
+    width: 100%;
+    position: fixed;
+}
+
+.hc-nav {
+    width: 40%;
+    margin: 0 auto;
+    list-style-type: none;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.hc-nav ul {
+    background: rgba(18, 18, 18, 60%);
+    border-radius: 25px;
+    width: 100%;
+}
+
+.hc-nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.hc-nav li:nth-child(1) {
+    padding-left: 0;
+}
+
+.hc-nav li:nth-child(4) {
+    padding-right: 0;
+}
+
+.hc-nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.hc-nav li a:hover {
+    background: rgb(25, 135, 84);
+}
+
+.hc-title {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 15%;
+}
+
+.hct-container {
+    border-radius: 40px;
+    background: rgba(18, 18, 18, 60%);
+}
+
+.hc-title h1 {
+    font-size: 65px;
+    text-shadow: 1px 1px 1px black;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+
+.hc-title h2 {
+    font-style: italic;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.hc-title button {
+    margin: 20px;
+}
+/* HEADER END */
+
+/* MAIN SECTION */
+/* PHRASES */
+.main {
+    text-align: center;
+    font-family: Open sans;
+}
+
+.phrases {
+    margin: 80px;
+}
+
+.phrases h2 {
+    color: rgb(25, 135, 84);
+    text-shadow: 1px 1px 1px black;
+}
+
+.phrases h4 {
+    color: rgb(193, 193, 193);
+    margin-top: 10px;
+}
+
+.phrases button {
+    margin-top: 40px;
+}
+/* PHRASES END */
+
+/* GOALS */
+.goals {
+    background: rgb(25, 135, 84);
+    padding: 80px;
+}
+
+.g-title {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.g-title h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.gl-container {
+    padding: 40px;
+    min-height: 200px;
+}
+
+.gl-inner {
+    float: left;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.gli-icon a i:hover {
+    background: rgb(193, 193, 193);
+    color: rgb(25, 135, 84);
+}
+
+.gli-icon a i {
+    text-decoration: none;
+    font-size: 32px;
+    background: white;
+    border-radius: 100%;
+    padding: 35px;
+    color: rgb(68, 138, 231);
+}
+
+.gli-text h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px;
+}
+/* GOALS END */
+
+/* PARTICIPATION */
+.participation {
+    background: url(../images/beach.jpg);
+    height: 550px;
+    padding: 200px;
+    background-size: cover;
+    background-position: bottom center;
+    font-family: Open sans;
+}
+
+.p-header h2 {
+    color: white;
+    text-shadow: 1px 1px 1px rgb(88, 88, 88);
+    font-size: 40px;
+}
+
+.participation button {
+    margin-top: 40px;
+}
+/* PARTICIPATION END */
+
+/* ACTIVITY */
+.activity {
+    font-family: Open sans;
+    padding: 80px;
+}
+
+.a-header h2{
+    color: rgb(25, 135, 84);
+    text-shadow: 1px 1px 1px black;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.a-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ac-img {
+    width: 50%;
+    float: left;
+    height: 300px;
+}
+
+.ac-img:nth-child(1) {
+    background: url(../images/1.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.ac-img:nth-child(2) {
+    background: url(../images/2.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.ac-img:nth-child(3) {
+    background: url(../images/3.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.ac-img:nth-child(4) {
+    background: url(../images/4.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.ac-text {
+    color: white;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.ac-text h6 {
+    text-transform: uppercase;
+}
+/* ACTIVITY END */
+
+/* CONTACT */
+.contact {
+    background: rgb(25, 135, 84);
+    margin-top: 80px;
+    padding: 80px;
+}
+
+.contact-text h3 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.contact-btns {
+    width: 28%;
+    margin: 0 auto;
+}
+
+.contact-btns button {
+    background: white;
+    color: rgb(25, 135, 84);
+    margin: 20px 10px;
+    padding: 10px;
+}
+/* CONTACT END */
+/* MAIN SECTION END */
+
+/* FOOTER */
+.footer {
+    padding: 80px;
+    width: 100%;
+}
+
+.f-container {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.f-icons {
+    float: left;
+    width: 25%;
+    margin: 3%;
+    text-align: center;
+}
+
+.f-icons a i {
+    color: white;
+    font-size: 28px;
+    padding: 15px 10px;
+}
+
+.f-icons {
+    border-radius: 100%;
+    background: rgb(25, 135, 84);
+}
+
+.f-copy {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgb(131, 131, 131);
+}
+/* FOOTER END */
